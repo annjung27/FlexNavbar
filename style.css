@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #423F3E;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+
+.nav-links .btn {
+    width: 70px;
+    height: 25px;
+    border: none;
+    background-color: mediumturquoise;
+    color: white;
+    box-shadow: 3px 3px 2px black;
+}
